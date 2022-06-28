@@ -1,0 +1,13 @@
+<h1>This is patient page</h1>
+<form method = 'POST'>
+    {% csrf_token %}
+    <center>
+      <table border = '0' style="color:black;">
+        {{ fmm.as_table }}
+        
+        
+      </table>
+    </center>
+    <br>
+        <button>Submit</button>
+    </form>

@@ -39,3 +39,4 @@ def adminlogin(request):
 def userlogout(request):
 	logout(request)
 	return redirect("home")
+

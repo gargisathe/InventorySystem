@@ -1,0 +1,13 @@
+<h1>This is kit page</h1>
+<form method = 'POST'>
+    {% csrf_token %}
+    <center>
+      <table border = '0' style="color:black;">
+        {{ fm.as_table }}
+        
+        
+      </table>
+    </center>
+    <br>
+        <button>Submit</button>
+    </form>
