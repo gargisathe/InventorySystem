@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%); */
+    background-color: #03e5b7;
+    background-image: linear-gradient(315deg, #03e5b7 0%, #037ade 74%);
+}
+
+.loginForm h1 {
+    font-weight: 400;
+}
+
+.loginForm {
+    /* background-color: white; */
+    background-color: #aee1f9;
+    background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+    font-family: "Poppins", sans-serif;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px 10px #f9f9f9;
+}
+
+img {
+    padding-right: 7rem;
+    margin-top: 8rem;
+    height: 100%;
+    width: 80%;
+    /* mix-blend-mode: screen; */
+}
+
+@media(max-width: 990px) {
+    img {
+        padding-right: 0rem;
+        margin-left: 3.6rem;
+    }
+}

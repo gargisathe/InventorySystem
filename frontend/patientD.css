@@ -1,0 +1,146 @@
+body {
+    background-color: #000;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.main {
+    background-color: #f7f5f2;
+    height: 70%;
+}
+
+.main h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: black;
+    margin-top: 72px;
+    line-height: 120%;
+}
+
+.main h1 span {
+    text-align: center;
+    display: block;
+}
+
+.card .btn {
+    border-radius: 0;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.card .btn svg {
+    height: 20px;
+    padding-left: 68%;
+    margin-bottom: 2.5px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.card {
+    height: auto;
+    width: 35rem;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.card-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-body .btn {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: end;
+}
+
+.two {
+    background-color: black;
+    color: white;
+}
+
+.two h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.two p {
+    font-weight: 100;
+    display: block;
+    font-size: 1.3rem;
+}
+
+.card-1 p {
+    margin: 3rem 10rem;
+}
+
+.cards-two {
+    margin-top: 3rem;
+}
+
+.cards-two svg {
+    height: 2rem;
+    margin-bottom: 1.2rem;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.cards-three svg {
+    height: 2rem;
+    margin-bottom: 1.2rem;
+    padding-left: 10px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.heading-card {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.two .content-card {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+}
+
+.ppic {
+    border-radius: 50%;
+    height: auto;
+    width: 20%;
+}
+
+@media(max-width:720px) {
+    .main h1 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:992px) {
+    .card {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .two h2 {
+        font-size: 1.5rem;
+    }
+}

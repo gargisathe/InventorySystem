@@ -1,0 +1,16 @@
+{% extends 'basepatient.html' %}
+{% block title %} Sign Up Page {% endblock %}
+{% block content %}
+<h1>Patient Sign Up Page</h1>
+<form method="POST">
+{% csrf_token %}
+	<input type="text" name="un" placeholder="Enter Username" required >
+	<br><br>
+	<input type="password" name="pw1" placeholder="Enter password" required>
+	<br><br>
+	<input type="password" name="pw2" placeholder="Confirm password" required>
+	<br><br>
+	<input type="submit" value="Sign Up">
+</form>
+{{ msg }}
+{% endblock %}

@@ -1,0 +1,71 @@
+body,
+h1 {
+    font-family: "Raleway";
+    font-weight: bolder;
+}
+
+body,
+html {
+    height: 100%
+}
+
+.bgimg {
+    background-image: url('https://images.unsplash.com/photo-1497169190325-c2abbe00c1a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1127&q=80');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 50px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+body,
+h1 {
+    font-family: "Raleway";
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 8px 8px #080303;
+}
+
+body,
+html {
+    height: 100%
+}
+
+.bgimg {
+    background-image: url('https://images.unsplash.com/photo-1497169190325-c2abbe00c1a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1127&q=80');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: #7ee482;
+}
