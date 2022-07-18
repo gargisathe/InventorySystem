@@ -18,7 +18,7 @@ The Tech Stack used is as follows:-
 ## 3.HTML
 ## 4.CSS 
 ## 5.JavaScript
-## 6. Bootstarp 5
+## 6. Bootstrap 5
 
 
 ![alt text](https://github.com/cfgmum22/team-103/blob/master/flowchart.png?raw=true)
